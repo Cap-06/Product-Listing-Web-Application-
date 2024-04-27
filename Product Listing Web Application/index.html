@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing Web Application</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Product Listing</h1>
+  <div id="filters">
+    <label for="category">Filter by Category:</label>
+    <select id="category"></select>
+    <input type="text" id="search" placeholder="Search by title...">
+    <select id="sort">
+      <option value="asc">Low to High</option>
+      <option value="desc">High to Low</option>
+    </select>
+  </div>
+  <div id="product-list"></div>
+
+</body>
+</html>
+<script src="app.js"></script>
